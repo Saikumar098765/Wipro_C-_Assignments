@@ -5,7 +5,7 @@ int[] numbers = new int[5];
 int sumEven = 0;
 int sumOdd = 0;
 
-Console.WriteLine("Enter 20 numbers:");
+Console.WriteLine("Enter 5 numbers:");
 
 
 for (int i = 0; i < 5; i++)
