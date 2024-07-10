@@ -1,0 +1,105 @@
+1.Write the Pseudocode to Calculate the sum of digits of the number given by user
+	Eg: 456=4+5+6=15
+ 
+2. Write the Pseudocode to calcualte the area of a rectangle, square and circle
+ 
+3. Write the Pseudocode to calculate the average of 5 marks accepted from user. If the average is between 75-90 print excellent, 
+60-75 print good and 45-60 pass below 45 fail
+
+
+1.Algorithm
+
+Intiliaze the three variables with int data type
+assign them values 
+declare a "result" variable to store the sum of three
+print the sum of three variables
+
+#Pseudo Code
+START
+  res ← 0
+  INPUT number
+  WHILE number > 0
+    digit = number % 10
+    res = res + digit
+    number = number // 10
+  END WHILE LOOP
+  PRINT res
+END
+
+
+
+2)Algorithm
+
+Rectangle:
+
+Get the length and width from the user.
+Calculate the area using the formula area = length * width.
+Print the area.
+
+Square:
+
+Get the side length from the user.
+Calculate the area using the formula area = side * side.
+Print the area.
+
+Circle:
+
+Get the radius from the user.
+Calculate the area using the formula area = π * radius * radius.
+Print the area
+
+#Pseudo Code
+rec:
+START
+  INPUT length, width
+  area ← length * width
+  PRINT area
+END
+
+square:
+START
+  INPUT side
+  area ← side * side
+  PRINT area
+END
+
+circle:
+START
+  INPUT radius
+  area ← π * radius * radius
+  PRINT area
+END
+
+3)Algorithm
+Initialize a var sum to 0.
+Get 5 marks from the user and add each to sum.
+Calculate the average using the formula average = sum / 5.
+If average is between 75 and 90, print "Excellent".
+Else if average is between 60 and 75, print "Good".
+Else if average is between 45 and 60, print "Pass".
+Else print "Fail".
+
+#Pseudo Code
+
+START
+  sum = 0
+  FOR i FROM 1 TO 5 DO
+    INPUT mark
+    sum = sum + mark
+  END FOR
+  average = sum / 5
+  IF average >= 75 AND average <= 90 THEN
+    PRINT "Excellent"
+  ELSE IF average >= 60 AND average < 75 THEN
+    PRINT "Good"
+  ELSE IF average >= 45 AND average < 60 THEN
+    PRINT "Pass"
+  ELSE
+    PRINT "Fail"
+  END IF
+END
+
+
+
+
+ 
