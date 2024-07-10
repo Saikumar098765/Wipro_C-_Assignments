@@ -1,0 +1,14 @@
+Open www.amazon.com Web Application in chrome browser
+
+login to Amazon Web app With Your credentials like Phn Num, Password.
+
+1)Search for Smart watches
+2)There u Can See List of smart watches (Give Filters to Your product)
+3)Select Smart Watch (read all specifications)
+4)then click to "Buy Now" button
+5)give Your address details and there u can see date of delivery
+6)Ensure to select your shipping address.
+7)then click conformation for the product
+8)then an email is send to your registered email id to conforming.
+9)Track your order through the “Your Orders” section in your Amazon account
+	
